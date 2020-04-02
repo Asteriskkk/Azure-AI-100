@@ -1,1 +1,45 @@
+Azure's Computer Vision service provides developers with access to advanced algorithms that process images and return information.
+Computer Vision Detect Faces: Detect faces in an image and provide information about each detected face. Computer Vision returns the coordinates, rectangle, gender, and age for each detected face.
+Computer Vision provides a subset of the Face service functionality. You can use the Face service for more detailed analysis, such as facial identification and pose detection
+
+Bing Video Search -
+Search for videos and get comprehensive results
+With Bing Video Search API v7, find videos across the web. Results provide useful metadata including creator, encoding format, video length, view count, improved & simplified paging, and more.
+
+The Anomaly Detector API enables you to monitor and detect abnormalities in your time series data with machine learning. The Anomaly Detector API adapts by automatically identifying and applying the best-fitting models to your data, regardless of industry, scenario, or data volume. Using your time series data, the API determines boundaries for anomaly detection, expected values, and which data points are anomalies.
+
+
+Box 1: Content Moderator -
+The Azure Content Moderator API is a cognitive service that checks text, image, and video content for material that is potentially offensive, risky, or otherwise undesirable. When such material is found, the service applies appropriate labels (flags) to the content. Your app can then handle flagged content in order to comply with regulations or maintain the intended environment for users.
+Box 2: Language Understanding (LUIS)
+Designed to identify valuable information in conversations, LUIS interprets user goals (intents) and distills valuable information from sentences (entities), for a high quality, nuanced language model. LUIS integrates seamlessly with the Azure Bot Service, making it easy to create a sophisticated bot.
+
+Box 3: Text Analytics -
+The Text Analytics API is a cloud-based service that provides advanced natural language processing over raw text, and includes four main functions: sentiment analysis, key phrase extraction, named entity recognition, and language detection.
+
+
+
+QnA Maker: 5 -
+If the user plans to support multiple languages, they need to have a new QnA Maker resource for each language.
+
+LUIS: 5 -
+If you need a multi-language LUIS client application such as a chatbot, you have a few options. If LUIS supports all the languages, you develop a LUIS app for each language. Each LUIS app has a unique app ID, and endpoint log. If you need to provide language understanding for a language LUIS does not support, you can use Microsoft Translator API to translate the utterance into a supported language, submit the utterance to the LUIS endpoint, and receive the resulting scores.
+
+Language detection: 1 -
+The Language Detection feature of the Azure Text Analytics REST API evaluates text input for each document and returns language identifiers with a score that indicates the strength of the analysis.
+This capability is useful for content stores that collect arbitrary text, where language is unknown. You can parse the results of this analysis to determine which language is used in the input document. The response also returns a score that reflects the confidence of the model. The score value is between 0 and 1.
+The Language Detection feature can detect a wide range of languages, variants, dialects, and some regional or cultural languages. The exact list of languages for this feature isn't published.
+
+
+Azure Event Hubs is a highly scalable data streaming platform and event ingestion service, capable of receiving and processing millions of events per second.
+Event Hubs can process and store events, data, or telemetry produced by distributed software and devices. Data sent to an event hub can be transformed and stored using any real-time analytics provider or batching/storage adapters. Event Hubs provides publish-subscribe capabilities with low latency at massive scale, which makes it appropriate for big data scenarios.
+
+
+
+By default, SSH keys are generated when you create an AKS cluster. If you did not specify your own SSH keys when you created your AKS cluster, add your public SSH keys to the AKS nodes.
+You also need to create an SSH connection to the AKS node.
+
+
+
+
 
